@@ -1,0 +1,34 @@
+---====== HELIX ======---
+    True Helix: 1413
+    FP Sheet 3
+    FP loop 325
+
+---====== SHEET ======---
+    True Sheet: 688
+    FP Helix 0
+    FP loop 96
+
+---====== LOOP ======---
+    True Loop: 1199
+    FP Helix 46
+    FP Sheet 76
+
+
+\begin{table} \label{tablemodel1_2}
+\centering
+    \begin{tabular}{||c||c|c|c|c||}
+	\hline
+	\textbf{\em Observed/Predicted} & Helix & Sheet & Loop & Total\\
+	\hline \hline
+				Helix & \cellcolor{gray}24,077   & 53 & 6132 & 30,262 \\
+				\hline
+				Sheet & 53   & \cellcolor{gray}12,117 & 1,663 & 13,786\\
+				\hline
+				Loop & 6,132  & 1188 & \cellcolor{gray}20,249 & 22,030\\
+				\hline
+				Total & 32,257   & 14,889 & 22,345 & 69,491\\
+				\hline \hline
+		\end{tabular}
+		\caption{The confusion matrix for PCASSO.}
+		\label{tab:PCASSOConfusion}
+\end{table}
